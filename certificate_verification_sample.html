@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate Verification</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#fff;
+  color:#222;
+}
+.header{
+  height:74px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 22px;
+  border-bottom:1px solid #eee;
+}
+.logo{
+  font-size:22px;
+  font-weight:800;
+  color:#163b63;
+}
+.menu{
+  font-size:26px;
+  color:#333;
+}
+.container{
+  max-width:620px;
+  margin:0 auto;
+  padding:42px 24px 55px;
+}
+h1{
+  text-align:center;
+  color:#163b63;
+  font-size:30px;
+  margin:0 0 34px;
+}
+.card{
+  border:1px solid #e2e6ea;
+  border-radius:12px;
+  overflow:hidden;
+  box-shadow:0 5px 18px rgba(0,0,0,.06);
+}
+.row{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding:18px 20px;
+  border-bottom:1px solid #edf0f2;
+}
+.label{font-weight:700;color:#555}
+.value{text-align:right;color:#222}
+.valid{
+  margin-top:24px;
+  padding:18px 20px;
+  border-radius:10px;
+  background:#e9f8ef;
+  color:#168344;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.check{
+  width:25px;height:25px;border-radius:50%;
+  background:#22a05a;color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;
+}
+.notice{
+  margin-top:16px;
+  padding:12px 15px;
+  background:#fff4e5;
+  color:#8a5a00;
+  border-radius:8px;
+  font-size:13px;
+  text-align:center;
+}
+footer{
+  text-align:center;
+  color:#888;
+  font-size:13px;
+  padding:22px;
+  border-top:1px solid #eee;
+}
+@media(max-width:520px){
+  h1{font-size:26px}
+  .row{display:block}
+  .value{text-align:left;margin-top:7px}
+}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="logo">SkillDzire</div>
+  <div class="menu">☰</div>
+</header>
+
+<main class="container">
+  <h1>Certificate Verification</h1>
+
+  <section class="card">
+    <div class="row">
+      <div class="label">Certificate ID</div>
+      <div class="value">evce2sr8jd</div>
+    </div>
+    <div class="row">
+      <div class="label">Student Name</div>
+      <div class="value">Bikash Chauhan</div>
+    </div>
+    <div class="row">
+      <div class="label">Course Name</div>
+      <div class="value">Web Development &amp; Cloud Integration</div>
+    </div>
+    <div class="row">
+      <div class="label">Issue Date</div>
+      <div class="value">2026-06-30</div>
+    </div>
+  </section>
+
+  <div class="valid">
+    <span class="check">✓</span>
+    <span>This certificate is valid.</span>
+  </div>
+
+  <div class="notice">
+    SAMPLE / NOT VALID — This page is a demonstration and is not an official certificate verification service.
+  </div>
+</main>
+
+<footer>SkillDzire Technologies Private Limited</footer>
+</body>
+</html>
